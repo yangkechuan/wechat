@@ -105,7 +105,7 @@ class IndexController extends Controller {
             $fromUser   =   $postObj->ToUserName;
             $toUser     =   $postObj->FromUserName;
             $time       =   time();
-            $content    =   "欢迎关注，我是夜微凉";
+            $Msg        =   "欢迎关注，我是夜微凉";
             //准备回复
             $template   =   "
                         <xml>
@@ -116,9 +116,29 @@ class IndexController extends Controller {
                         <Content><![CDATA[%s]]></Content>
                         </xml>
             ";
-            $info       =   sprintf($template,$toUser,$fromUser,$time,$content);
+
+            //增加天气接口
+            if ($this->getWeather($postObj->Content)){
+                $Msg    =   $this->getWeather($postObj->Content);
+            }
+            $info       =   sprintf($template,$toUser,$fromUser,$time,$Msg);
             echo $info;
             exit;
         }
+    }
+    protected function getWeather($weather){
+        $preg       =   "/天气$/i";
+        $match      =   preg_match($preg,$weather);
+        if (!$match){
+            return false;
+        }
+        preg_match_all('/(.*)天气$/i',$weather,$match);
+        $city       =   $match[1];
+        $url        =   "http://wthrcdn.etouch.cn/weather_mini?city=";
+        $weatherMsg =   file_get_contents($url.$city);
+        $weatherMsg =   json_decode($weatherMsg);
+        $Msg        =   $weatherMsg['data']['forecast'];
+        $Msg        =   implode('\n',$Msg );
+        return $Msg;
     }
 }
