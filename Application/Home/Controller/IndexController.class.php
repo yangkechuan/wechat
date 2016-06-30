@@ -33,6 +33,9 @@ class IndexController extends Controller {
                 $this->responseMsg();
             }
         }
+        if (IS_POST){
+            $this->responseMsg();
+        }
     }
     public function responseMsg(){
         /**
@@ -63,7 +66,7 @@ class IndexController extends Controller {
                 $toUser         =   $postObj->FromUserName;
                 $fromUser       =   $postObj->ToUserName;
                 $time           =   time();
-                $Msgtype        =   'text';
+                $MsgType        =   'text';
                 $content        =   '欢迎关注，我是夜微凉';
                 $template       =   "
                                <xml>
@@ -74,10 +77,48 @@ class IndexController extends Controller {
                                <Content><![CDATA[%s]]></Content>
                                </xml>
                 ";
-                $info           =   sprintf($template,$toUser,$fromUser,$time,$Msgtype,$content);
+                $info           =   sprintf($template,$toUser,$fromUser,$time,$MsgType,$content);
                 echo $info;
-
+                exit;
             }
+        }
+        /**
+         * 1.检测发送的消息
+            <xml>
+            <ToUserName><![CDATA[toUser]]></ToUserName>
+            <FromUserName><![CDATA[fromUser]]></FromUserName>
+            <CreateTime>1348831860</CreateTime>
+            <MsgType><![CDATA[text]]></MsgType>
+            <Content><![CDATA[this is a test]]></Content>
+            <MsgId>1234567890123456</MsgId>
+            </xml>
+         * 2.回复文本消息
+            <xml>
+            <ToUserName><![CDATA[toUser]]></ToUserName>
+            <FromUserName><![CDATA[fromUser]]></FromUserName>
+            <CreateTime>12345678</CreateTime>
+            <MsgType><![CDATA[text]]></MsgType>
+            <Content><![CDATA[你好]]></Content>
+            </xml>
+         */
+        if (strtolower($postObj->MsgType) == 'text'){
+            $fromUser   =   $postObj->ToUserName;
+            $toUser     =   $postObj->FromUserName;
+            $time       =   time();
+            $content    =   "欢迎关注，我是夜微凉";
+            //准备回复
+            $template   =   "
+                        <xml>
+                        <ToUserName><![CDATA[%s]]></ToUserName>
+                        <FromUserName><![CDATA[%s]]></FromUserName>
+                        <CreateTime>%u</CreateTime>
+                        <MsgType><![CDATA[text]]></MsgType>
+                        <Content><![CDATA[%s]]></Content>
+                        </xml>
+            ";
+            $info       =   sprintf($template,$toUser,$fromUser,$time,$content);
+            echo $info;
+            exit;
         }
     }
 }
