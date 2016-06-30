@@ -57,7 +57,7 @@ class IndexController extends Controller {
         $postArr                =   $GLOBALS['HTTP_RAW_POST_DATA'];
         $postObj                =   simplexml_load_string($postArr);
         if (strtolower($postObj->MsgType) == 'event'){
-            //判断是否是订阅时间
+            //判断是否是订阅事件
             if (strtolower($postObj->Event) == 'subscribe'){
                 //回复用户消息
                 $toUser         =   $postObj->FromUserName;
@@ -69,7 +69,7 @@ class IndexController extends Controller {
                                <xml>
                                <ToUserName><![CDATA[%s]]></ToUserName>
                                <FromUserName><![CDATA[%s]]></FromUserName>
-                               <CreateTime>%s</CreateTime>
+                               <CreateTime>%u</CreateTime>
                                <MsgType><![CDATA[%s]]></MsgType>
                                <Content><![CDATA[%s]]></Content>
                                </xml>
