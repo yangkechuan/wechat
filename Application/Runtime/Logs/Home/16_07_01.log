@@ -1,0 +1,1107 @@
+[ 2016-07-01T07:11:58+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.129323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.129430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056153s ]
+
+[ 2016-07-01T07:12:05+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-07-01T07:15:36+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-07-01T07:15:37+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-07-01T07:16:48+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-07-01T07:18:22+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-07-01T07:20:26+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-07-01T07:20:45+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-07-01T07:21:06+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-07-01T07:21:20+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-07-01T07:21:56+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-07-01T07:22:28+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-07-01T07:22:48+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-07-01T07:23:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 60 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 104 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-07-01T07:23:32+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-07-01T07:35:44+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-07-01T07:36:02+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-07-01T07:36:20+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2016-07-01T07:39:17+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-07-01T07:44:18+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-07-01T07:48:38+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-07-01T07:51:27+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-07-01T07:54:49+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-07-01T07:54:52+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-07-01T07:54:55+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-07-01T07:55:08+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-07-01T07:55:10+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-07-01T07:55:48+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-07-01T07:55:55+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-07-01T07:57:31+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-07-01T07:57:37+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-07-01T07:58:49+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-07-01T07:59:14+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-07-01T08:00:10+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-07-01T08:00:18+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-07-01T08:02:55+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-07-01T08:03:05+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-07-01T08:03:06+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-07-01T08:03:22+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-07-01T08:03:36+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-07-01T08:14:07+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-07-01T08:14:10+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-07-01T08:14:11+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-07-01T08:14:12+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-07-01T08:14:24+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-07-01T08:14:37+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-07-01T08:14:47+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-07-01T08:15:39+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-07-01T08:15:41+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-07-01T08:16:36+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: api /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-07-01T08:16:45+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-07-01T08:17:09+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined offset: 0 /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-07-01T08:17:11+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-07-01T08:17:13+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined offset: 0 /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 160 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-07-01T08:17:24+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-07-01T08:18:08+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-07-01T08:19:27+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-07-01T08:19:39+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-07-01T08:30:22+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined index: cond /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: cond /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: tmp /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: tmp /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-07-01T08:32:18+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index: cond /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: cond /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: tmp /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: tmp /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-07-01T08:33:05+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-07-01T08:41:37+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-07-01T08:42:20+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-07-01T08:42:39+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-07-01T08:44:11+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-07-01T08:46:17+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-07-01T08:46:34+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-07-01T08:47:00+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-07-01T08:48:05+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2016-07-01T08:48:17+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-07-01T08:54:23+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-07-01T08:54:49+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-07-01T08:55:09+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-07-01T08:56:04+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2016-07-01T08:56:32+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-07-01T08:57:02+08:00 ] 127.0.0.1 /Home/Index/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 505 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 508 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given /home/wwwroot/default/ThinkPHP/Common/functions.php 第 526 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/ThinkPHP/Common/functions.php 第 527 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-07-01T08:59:41+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-07-01T09:00:31+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-07-01T09:00:55+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-07-01T09:01:42+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-07-01T09:02:07+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 139 行.
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-07-01T09:02:19+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Undefined index: basic /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 163 行.
+NOTIC: [8] Undefined index: aqi /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 165 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 166 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: daily_forecast /home/wwwroot/default/Application/Home/Controller/IndexController.class.php 第 168 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-07-01T09:02:38+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-07-01T09:02:57+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-07-01T09:03:55+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E4%BF%9D%E5%AE%9A%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-07-01T09:04:04+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-07-01T09:04:18+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-07-01T09:04:27+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E4%BF%9D%E5%AE%9A%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2016-07-01T09:04:33+08:00 ] 127.0.0.1 /Home/Index/getWeather?city=%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%A9%E6%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
