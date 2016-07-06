@@ -184,5 +184,31 @@ class IndexController extends Controller {
         $Msg = "城市：".$city."\n"."时间:".$time."\n"."pm2.5：".$pm25."\n"."空气质量：".$qlty."\n"."天气：".$txt_d."转".$txt_n."\n"."最高气温：".$max."\n"."最低气温".$min;
         return $Msg;
     }
-
+    public function getWxAccessToken(){
+        $AppID      = 'wx1a74afe7a74e23ec';
+        $AppSecret  = '3a792e6175d0977d0c1d2806053f2504';
+        $url        = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$AppID.'&secret='.$AppSecret;
+        $ch         =  curl_init();
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+        $re  = curl_exec($ch);
+        $arr = json_decode($re,true);
+        $access_token = $arr['access_token'];
+        $expires_in   = $arr['expires_in'];
+        curl_close($ch);
+        return $access_token;
+    }
+    public function getWxServerIp(){
+//        $accessToken = 'kWtnM_jYmv_JbWOT2Jk78ac3wxfXHS_97GWllTP5pKEyeZUWGzuQ6wNGirMT-Q4vCqqDudiPh_h2UWrG9vfA5GxTlLWAOYVNakPObiBRoz_Nmd-9Hw1YdWIHnyOQTXHtHFAhAGASQL';
+        $accessToken    = $this->getWxAccessToken();
+        $url         = 'https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token='.$accessToken;
+        $ch          = curl_init();
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+        $re = curl_exec($ch);
+        $arr = json_decode($re,true);
+//        dump($arr);
+        echo $arr['ip_list'][0];
+        curl_close($ch);
+    }
 }
