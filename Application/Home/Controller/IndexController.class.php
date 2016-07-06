@@ -157,6 +157,10 @@ class IndexController extends Controller {
         $res = json_decode($res,true);
 //        dump($res);
 
+        if ($res['HeWeather data service 3.0'][0]['status'] == 'unknown city'){
+            $Msg = "城市不存在哦，亲";
+            return $Msg;
+        }
         $city  = $res['HeWeather data service 3.0'][0]['basic']['city'];
         $time  = $res['HeWeather data service 3.0'][0]['basic']['update']['loc'];
         $pm25  = $res['HeWeather data service 3.0'][0]['aqi']['city']['pm25'];
@@ -167,16 +171,16 @@ class IndexController extends Controller {
         $min   = $res['HeWeather data service 3.0'][0]['daily_forecast'][0]['tmp']['min'];
 
 
-        $Msg   = array(
-            '城市'        => $city,
-            '时间'        => $time,
-            'pm2.5'      => $pm25,
-            '空气质量'    =>  $qlty,
-            '天气'        =>  $txt_d,
-            '转'         =>   $txt_n,
-            '最高气温'    =>    $max,
-            '最低气温'      =>  $min
-        );
+//        $Msg   = array(
+//            '城市'        => $city,
+//            '时间'        => $time,
+//            'pm2.5'      => $pm25,
+//            '空气质量'    =>  $qlty,
+//            '天气'        =>  $txt_d,
+//            '转'         =>   $txt_n,
+//            '最高气温'    =>    $max,
+//            '最低气温'      =>  $min
+//        );
         $Msg = "城市：".$city."\n"."时间:".$time."\n"."pm2.5：".$pm25."\n"."空气质量：".$qlty."\n"."天气：".$txt_d."转".$txt_n."\n"."最高气温：".$max."\n"."最低气温".$min;
         return $Msg;
     }
