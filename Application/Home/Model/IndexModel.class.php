@@ -120,7 +120,7 @@ class IndexModel {
         $province= $ret['retData']['province'];
         $city    = $ret['retData']['city'];
         if ($retMsg == 'success'){
-            $Msg = "手机号：".$phone."\n"."运营商：".$supplier."\n"."省份：".$province."城市：".$city;
+            $Msg = "手机号：".$phone."\n"."运营商：".$supplier."\n"."省份：".$province."\n"."城市：".$city;
             return $Msg;
         }
         else{

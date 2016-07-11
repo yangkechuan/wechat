@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de6c2e8-2efe-407f-9e95-702636098b1d" name="Default" comment="增加回复">
+    <list default="true" id="1de6c2e8-2efe-407f-9e95-702636098b1d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.phpstorm.meta.php" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" />
     </list>
     <ignored path="wechat.iws" />
@@ -42,12 +40,12 @@
       <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="405">
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
-                <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
+                <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
+                <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -276,7 +274,7 @@
       <workItem from="1467819439287" duration="1657000" />
       <workItem from="1467908148637" duration="1037000" />
       <workItem from="1468214046939" duration="9869000" />
-      <workItem from="1468233241823" duration="953000" />
+      <workItem from="1468233241823" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="增加首次关注时的推送">
       <created>1467199630273</created>
@@ -313,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467277638030</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改$phone">
+      <created>1468234223221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1468234223221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40224000" />
+    <option name="totallyTimeSpent" value="40331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -359,7 +364,8 @@
     <MESSAGE value="修改时间戳为整形" />
     <MESSAGE value="修改ToUser大小写" />
     <MESSAGE value="增加回复" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加回复" />
+    <MESSAGE value="修改$phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改$phone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -382,8 +388,8 @@
           <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -404,8 +410,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -589,12 +595,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
