@@ -72,31 +72,11 @@ class IndexController extends Controller {
         curl_close($ch);
     }
     public function test(){
-        $ch = curl_init();
-        $url = 'http://apis.baidu.com/apistore/mobilenumber/mobilenumber?phone=18611425451';
-        $header = array(
-            'apikey: 3bdb311a33696ccdc5780f8032ac5e26',
-        );
-        // 添加apikey到header
-        curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        // 执行HTTP请求
-        curl_setopt($ch , CURLOPT_URL , $url);
-        $ret = curl_exec($ch);
-        $ret = json_decode($ret,true);
-        $retMsg  = $ret['retMsg'];
-        $phone   = $ret['retData']['phone'];
-        $supplier= $ret['retData']['supplier'];
-        $province= $ret['retData']['province'];
-        $city    = $ret['retData']['city'];
-        if ($retMsg == 'success'){
-            $Msg = "手机号：".$phone."\n"."运营商：".$supplier."\n"."省份：".$province."城市：".$city;
-            echo  $Msg;
-            exit();
-        }
-        else{
-            $Msg = '未知错误，请重试一次';
-            echo  $Msg;
-        }
+        $str = '手机号123-4567-8900';
+        preg_match_all('/^手机号(1\d{2}-?\d{4}-?\d{4})/i',$str ,$match);
+        $re = $match[1][0];
+//        $r = '1234567890';
+//        dump( str_replace('-', '',$r ));
+        dump($re);
     }
 }

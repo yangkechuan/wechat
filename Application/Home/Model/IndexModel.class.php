@@ -96,10 +96,10 @@ class IndexModel {
         if (!$match){
             return false;
         }
-        preg_match('/^手机号(1\d{10})/',$mobile,$match);
-        $phone = $match[1];
+        preg_match_all('/^手机号(1\d{2}-?\d{4}-?\d{4})/i',$mobile ,$match);
+        $phone = str_replace('-','' , $match[1][0]);
         if (!$phone){
-            $Msg = '手机号要输入11位哦';
+            $Msg = '手机号要输对哦';
             return $Msg;
         }
         $ch = curl_init();

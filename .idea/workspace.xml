@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1de6c2e8-2efe-407f-9e95-702636098b1d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" afterPath="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" />
     </list>
     <ignored path="wechat.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+            <state relative-caret-position="427">
+              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
               <folding>
                 <element signature="e#33#59#0#PHP" expanded="true" />
               </folding>
@@ -40,12 +41,12 @@
       <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+            <state relative-caret-position="-324">
+              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
-                <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
+                <marker date="1468236178481" expanded="true" signature="447:820" placeholder="..." />
+                <marker date="1468236178481" expanded="true" signature="1243:1576" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -274,7 +275,7 @@
       <workItem from="1467819439287" duration="1657000" />
       <workItem from="1467908148637" duration="1037000" />
       <workItem from="1468214046939" duration="9869000" />
-      <workItem from="1468233241823" duration="1060000" />
+      <workItem from="1468233241823" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="增加首次关注时的推送">
       <created>1467199630273</created>
@@ -318,15 +319,22 @@
       <option name="project" value="LOCAL" />
       <updated>1468234223221</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="省份和城市隔开">
+      <created>1468234318489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1468234318489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40331000" />
+    <option name="totallyTimeSpent" value="42124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -334,7 +342,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,7 +373,8 @@
     <MESSAGE value="修改ToUser大小写" />
     <MESSAGE value="增加回复" />
     <MESSAGE value="修改$phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改$phone" />
+    <MESSAGE value="省份和城市隔开" />
+    <option name="LAST_COMMIT_MESSAGE" value="省份和城市隔开" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -388,8 +397,8 @@
           <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -410,8 +419,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -585,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+        <state relative-caret-position="427">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
           <folding>
             <element signature="e#33#59#0#PHP" expanded="true" />
           </folding>
@@ -595,12 +604,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        <state relative-caret-position="-324">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468234302528" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468234302528" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468236178481" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
