@@ -42,7 +42,7 @@ class IndexController extends Controller {
             }
         }
         if (strtolower($postObj->MsgType) == 'text'){
-            $m->msgTypeText();
+            $m->msgTypeText($postObj);
         }
     }
     public function getWxAccessToken(){
