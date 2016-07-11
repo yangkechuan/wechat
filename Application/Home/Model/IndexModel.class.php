@@ -97,12 +97,13 @@ class IndexModel {
             return false;
         }
         preg_match('/^手机号(1\d{10})/',$mobile,$match);
-        if (!$match[1]){
+        $phone = $match[1];
+        if (!$phone){
             $Msg = '手机号要输入11位哦';
             return $Msg;
         }
         $ch = curl_init();
-        $url = 'http://apis.baidu.com/apistore/mobilenumber/mobilenumber?phone='.$mobile;
+        $url = 'http://apis.baidu.com/apistore/mobilenumber/mobilenumber?phone='.$phone;
         $header = array(
             'apikey: 3bdb311a33696ccdc5780f8032ac5e26',
         );

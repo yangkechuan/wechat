@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+            <state relative-caret-position="117">
+              <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
               <folding>
                 <element signature="e#33#59#0#PHP" expanded="true" />
               </folding>
@@ -39,15 +39,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1760">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="-194">
+              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1468231827845" expanded="true" signature="447:820" placeholder="..." />
-                <marker date="1468231827845" expanded="true" signature="1243:1576" placeholder="..." />
+                <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
+                <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php" />
       </list>
     </option>
   </component>
@@ -117,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,6 +213,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +239,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -270,6 +276,7 @@
       <workItem from="1467819439287" duration="1657000" />
       <workItem from="1467908148637" duration="1037000" />
       <workItem from="1468214046939" duration="9869000" />
+      <workItem from="1468233241823" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="增加首次关注时的推送">
       <created>1467199630273</created>
@@ -310,19 +317,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39271000" />
+    <option name="totallyTimeSpent" value="40224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -361,6 +368,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
@@ -375,8 +404,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468231827845" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468231827845" expanded="true" signature="1243:1576" placeholder="..." />
+            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -548,24 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1760">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="117">
+          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
           <folding>
-            <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1468231827845" expanded="true" signature="447:820" placeholder="..." />
-            <marker date="1468231827845" expanded="true" signature="1243:1576" placeholder="..." />
+            <element signature="e#33#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="-194">
+          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding>
-            <element signature="e#33#59#0#PHP" expanded="true" />
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <marker date="1468234195304" expanded="true" signature="447:820" placeholder="..." />
+            <marker date="1468234195304" expanded="true" signature="1243:1576" placeholder="..." />
           </folding>
         </state>
       </provider>
