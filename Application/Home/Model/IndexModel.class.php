@@ -53,7 +53,7 @@ class IndexModel {
         echo $info;
         exit;
     }
-    protected function getWeather($weather){
+    public function getWeather($weather){
         //天气API
         $preg       =   "/天气$/i";
         $match      =   preg_match($preg,$weather);
@@ -62,18 +62,9 @@ class IndexModel {
         }
         preg_match_all('/(.*)天气$/i',$weather,$match);
         $city       =   $match[1][0];
-        $ch = curl_init();
         $url = 'http://apis.baidu.com/heweather/weather/free?city='.$city;
-        $header = array(
-            'apikey: 3bdb311a33696ccdc5780f8032ac5e26',
-        );
-        // 添加apikey到header
-        curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        // 执行HTTP请求
-        curl_setopt($ch , CURLOPT_URL , $url);
-        $res = curl_exec($ch);
-        $res = json_decode($res,true);
+        $header = C('baiduApiHeader');
+        $res = curl($url,'get',$header,'json');
         if ($res['HeWeather data service 3.0'][0]['status'] == 'unknown city'){
             $Msg = "城市不存在哦，亲";
             return $Msg;
@@ -102,18 +93,9 @@ class IndexModel {
             $Msg = '手机号要输对哦';
             return $Msg;
         }
-        $ch = curl_init();
         $url = 'http://apis.baidu.com/apistore/mobilenumber/mobilenumber?phone='.$phone;
-        $header = array(
-            'apikey: 3bdb311a33696ccdc5780f8032ac5e26',
-        );
-        // 添加apikey到header
-        curl_setopt($ch, CURLOPT_HTTPHEADER  , $header);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        // 执行HTTP请求
-        curl_setopt($ch , CURLOPT_URL , $url);
-        $ret = curl_exec($ch);
-        $ret = json_decode($ret,true);
+        $header = C('baiduApiHeader');
+        $ret = curl($url,'get',$header,'json');
         $retMsg  = $ret['retMsg'];
         $phone   = $ret['retData']['phone'];
         $supplier= $ret['retData']['supplier'];
@@ -128,4 +110,5 @@ class IndexModel {
             return $Msg;
         }
     }
+
 }

@@ -71,12 +71,4 @@ class IndexController extends Controller {
         echo $arr['ip_list'][0];
         curl_close($ch);
     }
-    public function test(){
-        $str = '手机号123-4567-8900';
-        preg_match_all('/^手机号(1\d{2}-?\d{4}-?\d{4})/i',$str ,$match);
-        $re = $match[1][0];
-//        $r = '1234567890';
-//        dump( str_replace('-', '',$r ));
-        dump($re);
-    }
 }
